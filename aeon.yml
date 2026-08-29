@@ -100,6 +100,7 @@ skills:
   vuln-tracker: { enabled: false, schedule: "30 16 * * *", var: "" } # daily lifecycle poll: vuln-scanner PR/advisory status + PVR triage + disclosure-queue aging (folds in pvr-triage/disclosure-tracker). var: empty=full | pvr | queue | prs | <GHSA-id>
 
   # Ideas & productivity
+  higgsfield: { enabled: true, schedule: "workflow_dispatch", var: "" } # on-demand image/video generation via the Higgsfield MCP. var: "image: <prompt>" | "video: <prompt>" | "animate: <image-url> | <motion prompt>". Spends Higgsfield credits.
   idea-pipeline: { enabled: false, schedule: "0 18 * * 1" } # Monday — execution-gap audit: top 3 backlog ideas to build this week
 
   # Self-maintenance / meta
