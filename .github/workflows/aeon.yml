@@ -1,4 +1,5 @@
 name: Aeon · Skill Runner
+# reindex: touched to force workflow registration
 run-name: "skill: ${{ inputs.skill || 'feature' }}${{ inputs.var && format(' ({0})', inputs.var) || '' }}"
 
 on:
