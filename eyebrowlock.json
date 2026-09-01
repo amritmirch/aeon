@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-10T08:39:05.159387Z",
+  "generatedAt": "2026-08-15T08:00:02.859951Z",
   "generator": "eyebrow/0.4.1",
   "artifacts": [
     {
@@ -586,6 +586,30 @@
       ],
       "contentHash": "sha256-8aa59fbcdf625ceb216c81c60a7a90a2ecf79fbafc4eddef7ae684d4fb100b9a",
       "discoveredFrom": "skills/schedule-ads/SKILL.md"
+    },
+    {
+      "id": "3e9abc55a7401dd0",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "geo-audit",
+      "source": {
+        "kind": "local",
+        "ref": "skills/geo-audit"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "3686fa2d1d3dec1dd83619edb532fdac98944c7e9a0d24b1f40b8a7be2608fa0"
+        },
+        {
+          "path": "references/rubric.md",
+          "hash": "9d0da14ca429354b6a5a7104182d7772071937464426d1b479f47cec16de9770"
+        }
+      ],
+      "contentHash": "sha256-ddd8f08092f86787f0cbbed727d83dcac949c8b7c0fb4c3bf4569111f8e857bb",
+      "discoveredFrom": "skills/geo-audit/SKILL.md"
     },
     {
       "id": "42757a4adcc2bdf0",
@@ -1495,7 +1519,7 @@
           "owasp": "ASK-06",
           "file": "hook-deploy.sh",
           "line": 175,
-          "snippet": "[ -f hook.env ] && . ./hook.env",
+          "snippet": "[ -f hook.env ] \u0026\u0026 . ./hook.env",
           "explanation": "references sensitive credential or secret paths"
         },
         {
@@ -1901,7 +1925,7 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "9068bf394a671f656d598423fc93ebaf4c3959fae7f790303445cc3419c5b380"
+          "hash": "4392bf6cd40bbe15303d732d04d88f9caa777ae7fedc2403d752b574255939d2"
         },
         {
           "path": "references/ci.md",
@@ -1913,11 +1937,11 @@
         },
         {
           "path": "references/layout.md",
-          "hash": "322f8974ba14992093a3b1045fdab2def54cebc0f06fd376c593fe0bb9ee6380"
+          "hash": "0127f5f56b16800fd8c03fa44df84988fcfb72290bdd9638dd2c8043fddf66eb"
         },
         {
           "path": "references/mcp.md",
-          "hash": "f0fadf8be705e2a636ebb7c01b8d51a7a017e08ffc29587d2693301b6c3482d6"
+          "hash": "162f3cd9ad86dc4e3e65f60cedf9824b60b13ad598271141758652aa065c3720"
         },
         {
           "path": "references/secrets.md",
@@ -1925,14 +1949,14 @@
         },
         {
           "path": "references/skill-anatomy.md",
-          "hash": "ee98b2302b8ddc8a18cc4fadde0d1864c0d3299b2bb52f6a7db09e6688a3260b"
+          "hash": "565893505064e4e985d19d1241a8e70aa99278f86b78216633680409d68254c3"
         },
         {
           "path": "scripts/mine-history.mjs",
           "hash": "0edc7445542a21cb5518e813a6ae462a1d469636601a799efc1bec86b4058c5a"
         }
       ],
-      "contentHash": "sha256-03377e139ed510956c63a4ed03ba2ea6beb7d2eb272d543329345eba37306d8f",
+      "contentHash": "sha256-53be1e62b59f423de4e7b8957a4a2f1f25df8f8aacb99304442a8245e3615c41",
       "discoveredFrom": ".claude/skills/aeon/SKILL.md"
     },
     {
